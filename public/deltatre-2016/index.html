@@ -105,9 +105,9 @@
         <ul>
           <li class="fragment">Test first</li>
           <li class="fragment">TDD</li>
-          <li class="fragment">Mocha</li>
-          <li class="fragment">Chai</li>
-          <li class="fragment">Sinon</li>
+          <li class="fragment"><a href="https://mochajs.org/" target="_blank">mocha</a></li>
+          <li class="fragment"><a href="http://chaijs.com/" target="_blank">chai</a></li>
+          <li class="fragment"><a href="http://sinonjs.org/" target="_blank">sinon</a></li>
         </ul>
       </section>
 
@@ -168,6 +168,33 @@
           11. app.js (routes and view engine)
             11.1. jade, ejs, vash, handlebar todo: check names !?!
             11.2. .render() v. .send() 
+          -->
+      </section>
+
+      <section data-background="#f7f7f7">
+        <h2>Demo 3/X</h2>
+        <img class="fragment plain" src="./img/007-book-quickly.png" alt="TODO" style="vertical-align: middle;">
+        <ul>
+          <li class="fragment" style="font-size: 0.75em;">when luch time then heading should be "Great offers available for lunch"</li>
+          <li class="fragment" style="font-size: 0.75em;">when dinner time then heading should be "Great offers available for dinner"</li>
+          <li class="fragment" style="font-size: 0.75em;">when late at night then heading should be "Great offers available for lunch tomorrow"</li>
+        </ul>
+        <p>
+          <span class="fragment">TDD</span>
+          <span class="fragment">w/ <a href="https://www.npmjs.com/package/mocha" target="_blank">mocha</a></span>
+          <span class="fragment">&amp; <a href="https://www.npmjs.com/package/chai" target="_blank">chai</a></span>
+        </p>
+        <!--
+          1. get meal info by date returns meal type and date to search
+          2. npm install --save-dev mocha chai
+          3. mkdir domain && cd domain
+          4. touch get-meal-info.js
+          5. cd ..
+          6. mkdir specs && cd specs
+          7. mkdir domain && cd domain
+          8. touch get-meal-info.specs.js
+          9. var expect = require('chai').expect;
+          10. https://github.com/opentable/oc-book-offers-quickly/blob/master/tests/which-meal-business-rule.spec.js
           -->
       </section>
 
