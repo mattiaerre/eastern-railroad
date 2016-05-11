@@ -2,6 +2,7 @@ Reveal.initialize({
   controls: false,
 });
 
+/*
 window.addEventListener('mousedown', handleClick, false);
 window.addEventListener('contextmenu', function (e) { e.preventDefault(); }, false);
 
@@ -10,3 +11,4 @@ function handleClick(e) {
   if (e.button === 0) Reveal.next();
   if (e.button === 2) Reveal.prev();
 }
+*/
