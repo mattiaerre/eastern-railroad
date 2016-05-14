@@ -20,7 +20,8 @@
     <div class="slides">
 
       <section>
-        <h1>Node.js from the trenches: my experience at OpenTable</h1>
+        <h1>Node.js from the trenches</h1>
+        <h3>My experience at OpenTable</h3>
         <small>@mattiaerre</small>
       </section>
 
@@ -28,7 +29,8 @@
         <h2>Agenda</h2>
         <ul>
           <li class="fragment">Who I am and what I do</li>
-          <li class="fragment">My story so far</li>
+          <li class="fragment">Of Javascript & ...</li>
+          <li class="fragment">OpenTable</li>
           <li class="fragment">Node.js</li>
           <li class="fragment">Demo(s)</li>
           <li class="fragment">Takeaways</li>
@@ -47,12 +49,12 @@
       </section>
 
       <section>
-        <h2>MSSF 1/X</h2>
-        <p>TODO: add image</p>
+        <h2>OfJS & me (Part I)</h2>
+        <img class="fragment plain" src="./img/009-wordcloud.png" alt="Word cloud" style="width: 75%; height: 75%; vertical-align: middle;">
       </section>
 
       <section>
-        <h2>MSSF 2/X</h2>
+        <h2>OfJS & the rest of the world</h2>
         <blockquote class="fragment">
           JavaScript is the most commonly used programming language on earth. Even Back-End developers are more likely to use it than
           any other language
@@ -61,7 +63,7 @@
       </section>
 
       <section>
-        <h2>MSSF 3/X</h2>
+        <h2>OfJS & me (Part II)</h2>
         <ul>
           <li class="fragment">I hate(d) JavaScript</li>
           <li class="fragment">You don't know what you hate (or the other way around)</li>
@@ -70,36 +72,29 @@
       </section>
 
       <section>
-        <h2>MSSF 4/X</h2>
+        <h2>OfJS & <b>delta</b>tre (UK)</h2>
         <ul>
-          <li class="fragment"><b>delta</b>tre (UK)
-            <ul>
-              <li class="fragment">
-                BPL match centre (Summer/Autumn 2013)
-                <img src="./img/002-bpl.png" alt="BPL match centre" class="plain" style="width: 50%; height: 50%; vertical-align: middle;">
-              </li>
-              <li class="fragment">H5VP (Spring 2014)</li>
-            </ul>
+          <li class="fragment">
+            BPL match centre (Summer/Autumn 2013)
+            <img src="./img/002-bpl.png" alt="BPL match centre" class="plain" style="width: 50%; height: 50%; vertical-align: middle;">
           </li>
+          <li class="fragment">H5VP (Spring 2014)</li>
         </ul>
       </section>
 
       <section>
-        <h2>MSSF 5/X</h2>
+        <h2>OfJS & Aqueduct</h2>
         <ul>
-          <li class="fragment">Aqueduct</li>
-          <ul>
-            <li class="fragment">ManCity.com > Community > Cityzen giving project (Winter 2014)</li>
-            <li class="fragment">SiteCore API</li>
-            <li class="fragment">Node.js + Express</li>
-            <li class="fragment">MongoDB</li>
-            <li class="fragment">#dreamjob</li>
-          </ul>
+          <li class="fragment">ManCity.com > Community > Cityzen giving project (Winter 2014)</li>
+          <li class="fragment">SiteCore API</li>
+          <li class="fragment">Node.js + Express</li>
+          <li class="fragment">MongoDB</li>
+          <li class="fragment">#dreamjob</li>
         </ul>
       </section>
 
       <section>
-        <h2>MSSF 6/X</h2>
+        <h2>OfJS & Learning it</h2>
         <img class="fragment plain" src="./img/003-tdd.png" alt="TDD" style="width: 50%; height: 50%; vertical-align: middle;">
         <ul>
           <li class="fragment">Test first</li>
@@ -111,22 +106,22 @@
       </section>
 
       <section>
-        <h2>MSSF 7/X</h2>
-        <p>TODO: add ?!?</p>
+        <h2>OpenTable 1/X</h2>
+        <img class="fragment plain" src="./img/004-opentable-website.png" alt="Opentable website" style="width: 50%; height: 50%; vertical-align: middle;">
+        <ul>
+          <li class="fragment">Australia, Asia, Europe, America</li>
+          <li class="fragment">Millions of requests per minute</li>
+          <li class="fragment">More than 50 engineers make changes every day to the websites</li>
+        </ul>
       </section>
 
       <section>
-        <h2>MSSF 8/X</h2>
-        <img class="fragment plain" src="./img/004-opentable-website.png" alt="Opentable website" style="vertical-align: middle;">
-      </section>
-
-      <section>
-        <h2>MSSF 9/X</h2>
+        <h2>OpenTable 2/X</h2>
         <!-- see: http://matteofigus.github.io/presentations/oc-jsconfuy/ -->
       </section>
 
       <section>
-        <h2>Node.js 1/X</h2>
+        <h2>Node.js 1/2</h2>
         <p class="fragment">Node.js&reg; is a JavaScript runtime built on <a href="https://developers.google.com/v8/" target="_blank">Chrome's V8 JavaScript engine</a>.
           Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package
           ecosystem, <a href="https://www.npmjs.com/" target="_blank">npm</a>, is the largest ecosystem of open source libraries
@@ -134,7 +129,7 @@
       </section>
 
       <section>
-        <h2>Node.js 2/X</h2>
+        <h2>Node.js 2/2</h2>
         <ul>
           <li class="fragment">Threading</li>
           <li class="fragment">V8</li>
@@ -175,7 +170,7 @@
           -->
       </section>
 
-      <section data-background="#ff0000">
+      <section data-background="#da3743">
         <h2>Demo 3/X</h2>
         <p class="fragment">TODO: ?!?</p>
         <!--
@@ -196,9 +191,9 @@
         <h2>Demo 4/X</h2>
         <img class="fragment plain" src="./img/007-book-quickly.png" alt="Book quickly" style="vertical-align: middle;">
         <ul>
-          <li class="fragment" style="font-size: 0.75em;">when luch time then heading should be "Great offers available for lunch"</li>
-          <li class="fragment" style="font-size: 0.75em;">when dinner time then heading should be "Great offers available for dinner"</li>
-          <li class="fragment" style="font-size: 0.75em;">when late at night then heading should be "Great offers available for lunch tomorrow"</li>
+          <li class="fragment" style="font-size: 0.75em;">When luch time then heading should be "Great offers available for lunch"</li>
+          <li class="fragment" style="font-size: 0.75em;">When dinner time then heading should be "Great offers available for dinner"</li>
+          <li class="fragment" style="font-size: 0.75em;">When late at night then heading should be "Great offers available for lunch tomorrow"</li>
         </ul>
         <p>
           <span class="fragment">TDD</span>
@@ -209,6 +204,26 @@
           <a class="fragment" href="https://github.com/opentable/oc-book-offers-quickly/blob/refactor-business-logic/tests/which-meal-business-rule.spec.js"
             target="_blank">Which meal business rule</a>
         </p>
+      </section>
+
+      <section>
+        <h2>Takeaways 1/3</h2>
+        <ul>
+          <li class="fragment">Always be curious</li>
+          <li class="fragment">"Programming languages come and go, but the essence of computer science stays the same"</li>
+          <li class="fragment">There is no silver bullet</li>
+          <li class="fragment">Why not to mix and match?</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Takeaways 2/3</h2>
+        <img class="fragment plain" src="./img/010-grace-hopper.jpg" alt="Grace Hopper" style="width: 60%; height: 60%; vertical-align: middle;">
+      </section>
+
+      <section>
+        <h2>Takeaways 3/3</h2>
+        <img class="fragment plain" src="./img/011-magic-happens.png" alt="Grace Hopper" style="width: 90%; height: 90%; vertical-align: middle;">
       </section>
 
       <section data-background="./img/00X-thats-all-folks.png">
