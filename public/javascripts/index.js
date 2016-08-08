@@ -1,3 +1,3 @@
 (function () {
-  window.location.replace('/deltatre-may-2016');
+  window.location.replace('/ve-interactive-sep-2016');
 })();
